@@ -1,0 +1,43 @@
+.table {
+    margin-top: 20px;
+    overflow: scroll;
+    color: #6a5d5d;
+    background-color: white;
+    height: 400px;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.table td {
+    padding: 0.5rem;
+    border: none;
+}
+
+.table tr:nth-of-type(odd) {
+    background-color: antiquewhite;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: antiquewhite; 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(226, 182, 100); 
+  }
